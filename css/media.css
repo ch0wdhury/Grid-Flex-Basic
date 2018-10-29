@@ -1,0 +1,106 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.box {
+		height: 30px;
+		background-color: green;
+		border:3px solid black;
+		margin: 10px 0;
+		text-align: center;
+		color: white;
+		font-size: 9px;
+	}
+	.box1 {
+		height: 30px;
+		background-color: white;
+		border:3px solid black;
+		text-align: center;
+		color: black;
+		font-size: 9px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.box {
+		height: 40px;
+		background-color: green;
+		border:3px solid black;
+		margin: 10px 0;
+		text-align: center;
+		color: white;
+		font-size: 12px;
+	}
+	.box1 {
+		height: 40px;
+		background-color: white;
+		border:3px solid black;
+		text-align: center;
+		color: black;
+		font-size: 12px;
+	}
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.box {
+		height: 60px;
+		background-color: red;
+		border:5px solid black;
+		margin: 20px 0;
+		text-align: center;
+		color: white;
+		font-size: 14px;
+	}
+	.box1 {
+		height: 60px;
+		background-color: black;
+		border:5px solid red;
+		text-align: center;
+		color: white;
+		font-size: 14px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.box {
+		height: 70px;
+		background-color: orange;
+		border:7px solid yellow;
+		margin: 25px 0;
+		text-align: center;
+		color: red;
+		font-size: 16px;
+	}
+	.box1 {
+		height: 70px;
+		background-color: blue;
+		border:7px solid red;
+		text-align: center;
+		color: white;
+		font-size: 16px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.box {
+		height: 80px;
+		background-color: grey;
+		border:10px solid black;
+		margin: 30px 0;
+		text-align: center;
+		color: black;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.box1 {
+		height: 80px;
+		background-color: black;
+		border: 10px solid grey;
+		text-align: center;
+		color: grey;
+		font-size: 18px;
+		font-weight: bold;
+	}
+}

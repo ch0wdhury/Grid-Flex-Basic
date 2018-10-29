@@ -1,0 +1,17 @@
+.box {
+	height: 60px;
+	background-color: red;
+	border:5px solid black;
+	margin: 20px 0;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+.box1 {
+	height: 60px;
+	background-color: black;
+	border:5px solid red;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
